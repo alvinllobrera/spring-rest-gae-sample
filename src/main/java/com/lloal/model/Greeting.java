@@ -1,6 +1,3 @@
-/*
- * Copyright (c) 2015, CloudSherpas Incorporated. All rights reserved.
- */
 package com.lloal.model;
 
 public class Greeting {

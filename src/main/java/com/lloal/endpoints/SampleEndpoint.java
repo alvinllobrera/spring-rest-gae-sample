@@ -1,10 +1,8 @@
-/*
- * Copyright (c) 2015, CloudSherpas Incorporated. All rights reserved.
- */
 package com.lloal.endpoints;
 
 import com.lloal.model.Greeting;
 import com.lloal.services.SampleService;
+import com.wordnik.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.http.HttpStatus;
@@ -15,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.inject.Inject;
 
+@Api(value = "sample", description = "sample")
 @RestController
 @RequestMapping("/sample")
 public class SampleEndpoint {
